@@ -6,7 +6,7 @@ import './css/style.css';
 let searchBtn = document.querySelector('#search-btn');
 let country = document.querySelector('#country');
 searchBtn.addEventListener("click", () =>{
-    let countryName = 'India';
+    let countryName = 'country.value';
     let finalURL = `https://restcountries.com/v3.1/name/${countryName}?fullText=true`;
     console.log(finalURL);
     fetch(finalURL)
@@ -34,6 +34,9 @@ searchBtn.addEventListener("click", () =>{
             </div>
             <h4>Population:</h4>
             <span>${data[0].population}</span>
+            </div>
+            <h4>Currency:</h4>
+            <span>${data[0].currencies[Object.keys(data[0].currencies)].name} -${Object.keys(data[0].currencies)[0]}</span>
             </div>
         </div>
         `;

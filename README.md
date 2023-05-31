@@ -26,7 +26,7 @@
 _
 
 ## License
-  MIT
+  API is 404 not found
 
 ## Contact Information
   akindijiduro@gmail.com
