@@ -32,6 +32,9 @@ searchBtn.addEventListener("click", () =>{
             <h4>Continent:</h4>
             <span>${data[0].continents[0]}</span>
             </div>
+            <h4>Population:</h4>
+            <span>${data[0].population}</span>
+            </div>
         </div>
         `;
     });
