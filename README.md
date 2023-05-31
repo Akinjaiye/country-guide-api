@@ -1,31 +1,32 @@
-# (Application Name)
+# Country Guide
 
-#### (Brief Description of Application)
+#### This app will give you vital informations about a country you wish to know more about
 
-#### By (Your Name Here)
+#### By Akindiji Durojaiye
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML5
+* CSS
+* JAVASCRIPT
+* WEBPACK
 
-## Description
+
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Open git repository
+* Clone this app to your local computer
+* Run npm install
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* None
+_
 
 ## License
+  MIT
 
 ## Contact Information
+  akindijiduro@gmail.com
