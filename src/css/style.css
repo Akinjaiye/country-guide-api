@@ -42,3 +42,16 @@ body{
     border-bottom: 2px solid blue;
     outline: none;
 }
+#result{
+    margin-top: 20px;
+}
+.container .flag-img{
+    display: block;
+    width: 45% ;
+    min-width: 120px;
+    margin: 24.4px auto 19.2px auto;
+}
+.container h2{
+    font-weight: 600;
+    text-align: center;
+}
