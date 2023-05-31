@@ -29,6 +29,9 @@ searchBtn.addEventListener("click", () =>{
             <h4>Capital:</h4>
             <span>${data[0].capital[0]}</span>
             </div>
+            <h4>Continent:</h4>
+            <span>${data[0].continents[0]}</span>
+            </div>
         </div>
         `;
     });
